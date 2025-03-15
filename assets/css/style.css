@@ -1,4 +1,3 @@
-
 /*Import Global Compulsory CSS Files*/
 @import url(custom.css);
 
@@ -11,9 +10,10 @@
 }
 
 body {
- color: #333;
- font-size: 13px;
- line-height: 1.6;
+    background-color: #f8f9fa; /* Update background color */
+    color: #333; /* Update text color */
+    font-size: 13px;
+    line-height: 1.6;
 }
 
 body.header-fixed-space {
@@ -76,4 +76,21 @@ a:hover {
 /*Hiding arrows for select field in IE*/
 select::-ms-expand {
   display: none;
+}
+
+.header-v1 {
+    background-color: #007bff; /* Update header background color */
+    color: #fff; /* Update header text color */
+}
+
+.footer-v1 {
+    background-color: #343a40; /* Update footer background color */
+    color: #fff; /* Update footer text color */
+}
+
+/* Update button styles */
+.btn-u {
+    background-color: #007bff; /* Update button background color */
+    border-color: #007bff; /* Update button border color */
+    color: #fff; /* Update button text color */
 }
